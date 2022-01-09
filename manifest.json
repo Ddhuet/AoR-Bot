@@ -1,0 +1,1 @@
+{  "name": "Sardines",  "version": "1.0",  "description": "Sardines",  "permissions": [    "http://*.ageofrebellion.com/","tabs"  ],"content_scripts": [    {      "matches": ["http://ageofrebellion.com/index.php?start"],      "js": ["bot.js"]    }  ]}
